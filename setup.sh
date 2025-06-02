@@ -6,11 +6,16 @@ echo >> ~/.zprofile
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+source ~/.zshrc
+source ~/.zprofile
+
 # Bundle Install
 curl https://raw.githubusercontent.com/asmamulla786/setup/main/Brewfile > Brewfile
 brew bundle install
 
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
 
 # setup github username and email
 git config --global --add user.email "183721570+asmamulla786@users.noreply.github.com"
