@@ -8,7 +8,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Bundle Install
 curl https://raw.githubusercontent.com/asmamulla786/setup/main/Brewfile > Brewfile
-
+brew bundle install
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
