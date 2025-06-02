@@ -1,0 +1,7 @@
+brew "bat"
+brew "deno"
+brew "tree"
+brew "zsh-syntax-highlighting"
+cask "intellij-idea-ce"
+cask "iterm2"
+cask "visual-studio-code"
