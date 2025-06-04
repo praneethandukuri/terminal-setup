@@ -12,7 +12,7 @@ source ~/.zshrc
 source ~/.zprofile
 
 # Bundle Install
-curl https://raw.githubusercontent.com/praneethandukuri/setup/main/Brewfile > Brewfile
+curl https://raw.githubusercontent.com/praneethandukuri/terminal-setup/main/Brewfile > Brewfile
 brew bundle install
 
 
