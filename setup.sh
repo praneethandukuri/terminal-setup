@@ -12,14 +12,14 @@ source ~/.zshrc
 source ~/.zprofile
 
 # Bundle Install
-curl https://raw.githubusercontent.com/asmamulla786/setup/main/Brewfile > Brewfile
+curl https://raw.githubusercontent.com/praneethandukuri/setup/main/Brewfile > Brewfile
 brew bundle install
 
 
 
 # setup github username and email
-git config --global --add user.email "183721570+asmamulla786@users.noreply.github.com"
-git config --global --add user.name "Asma"
+git config --global user.email "152866355+praneethandukuri@users.noreply.github.com"
+git config --global --add user.name "praneethandukuri"
 
 
 # Setup zsh syntax hightlighting
